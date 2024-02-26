@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vallejo Public Library - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Comic Sans MS, Comic Sans;
+            font-style: normal;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #008B8B ;
+            color:#FF8C00;
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        footer {
+            font-family: Comic Sans MS, Comic Sans;
+            background-color: #008B8B;
+            color: #FF8C00;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 5px;
+            }
+
+            nav ul {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            nav li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" style="color: #fff; text-decoration: none;">Vallejo Public Library, California</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="library card signup.html">Library Card Signup Form</a></li>
+                <li><a href="book catalog.html">Book Catalog</a></li>
+                <li><a href="book reservation.html">Book Reservation</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact page.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Home Page</h2>
+        <div class="book-search-bar">
+            <label for="book-search">Book Search:</label>
+            <input type="text" id="book-search" placeholder="Search for a book...">
+            <button type="button">Search</button>
+        </div>
+        <p><strong>Book Catalog Search:</strong> Use the search bar to explore our extensive book collection.</p>
+
+    </section>
+
+    <section>
+        <h2>Latest News</h2>
+        <div class="news-article">
+            <h3>Library Expansion Project</h3>
+            <p>We are excited to announce the upcoming expansion of our library facilities to better serve the community. Stay tuned for updates!</p>
+        </div>
+        <div class="news-article">
+            <h3>Summer Reading Program</h3>
+            <p>Join us this summer for our annual Summer Reading Program, packed with fun activities and events for all ages.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vallejo Public Library. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Title - Vallejo Public Library, California</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Comic Sans MS, Comic Sans;
+            font-style: normal;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #008B8B ;
+            color:#FF8C00;
+            padding: 2px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        footer {
+            font-family: Comic Sans MS, Comic Sans;
+            background-color: #008B8B;
+            color: #FF8C00;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 5px;
+            }
+
+            nav ul {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            nav li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vallejo Public Library, California</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="library card signup.html">Library Card Form</a></li>
+                <li><a href="book catalog.html">Book Catalog</a></li>
+                <li><a href="book reservation.html">Book Reservation</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="book-search-bar">
+            <label for="book-search">Book Search:</label>
+            <input type="text" id="book-search" placeholder="Search for a book...">
+            <button type="button">Search</button>
+        </div>
+        <h2>Book Title- Steve Jobs </h2>
+        <p><strong>Author:</strong> Walter Isaacson </p>
+        <p><strong>Genre:</strong> Business </p>
+        <p><strong>Publication Year: </strong> 2011 </p>
+        <p><strong>Description: </strong> A brief summary of the book...Steve Jobs is the authorized self-titled
+            biography of American business magnate and Apple co-founder Steve Jobs. The book was written at the request
+            of Jobs by Walter Isaacson, a former executive at CNN and Time. </p>
+        <p><strong>Copies Available:</strong> 3 out of 5</p>
+        <a href="book reservation.html">Reserve a Copy</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vallejo Public Library. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
